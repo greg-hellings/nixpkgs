@@ -35,8 +35,6 @@ in {
 
   xontrib-sh = callPackage ./xontrib-sh {};
 
-  xontrib-starship = callPackage ./xontrib-starship {};
-
   xontrib-term-integrations = callPackage ./xontrib-term-integrations {};
 
   xontrib-vox = callPackage ./xontrib-vox {};
