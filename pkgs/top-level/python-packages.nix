@@ -1353,6 +1353,8 @@ self: super: with self; {
     enablePython = true;
   });
 
+  backtrace = callPackage ../development/python-modules/backtrace { };
+
   bambi = callPackage ../development/python-modules/bambi { };
 
   pad4pi = callPackage ../development/python-modules/pad4pi { };
