@@ -15,8 +15,6 @@ in {
 
   xontrib-debug-tools = callPackage ./xontrib-debug-tools {};
 
-  xontrib-direnv = callPackage ./xontrib-direnv {};
-
   xontrib-distributed = callPackage ./xontrib-distributed {};
 
   xontrib-dot-dot = callPackage ./xontrib-dot-dot {};
