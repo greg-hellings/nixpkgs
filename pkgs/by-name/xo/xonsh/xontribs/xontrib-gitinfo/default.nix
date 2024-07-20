@@ -40,6 +40,7 @@ in
       substituteInPlace pyproject.toml \
       --replace poetry.masonry.api poetry.core.masonry.api \
       --replace "poetry>=" "poetry-core>="
+      touch xontrib/__init__.py
     '';
 
     dependencies = [
@@ -50,6 +51,6 @@ in
       homepage = "https://github.com/dyuri/xontrib-gitinfo";
       license = licenses.mit;
       maintainers = [maintainers.drmikecrowe];
-      description = "# xontrib-gitinfo";
+      description = "Displays git information on entering a repository folder in the [xonsh shell](https://xon.sh).";
     };
   }

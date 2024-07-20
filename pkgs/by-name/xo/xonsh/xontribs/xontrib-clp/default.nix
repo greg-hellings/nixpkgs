@@ -24,7 +24,7 @@ buildPythonPackage {
 
   meta = with lib; {
     homepage = "https://github.com/anki-code/xontrib-clp";
-    description = "Copy output to clipboard. Cross-platform.";
+    description = "Copy output to clipboard (cross-platform) in the [xonsh shell](https://xon.sh).";
     license = licenses.mit;
     maintainers = [maintainers.drmikecrowe];
   };
