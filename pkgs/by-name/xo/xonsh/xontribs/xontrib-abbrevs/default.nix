@@ -2,14 +2,12 @@
   buildPythonPackage,
   lib,
   fetchFromGitHub,
-
   setuptools,
   poetry-core,
   prompt-toolkit,
   pytestCheckHook,
-  xonsh
+  xonsh,
 }:
-
 buildPythonPackage rec {
   pname = "xontrib-abbrevs";
   version = "0.0.1";
@@ -46,9 +44,9 @@ buildPythonPackage rec {
   ];
 
   meta = with lib; {
-    description = "Command abbreviations. This expands input words as you type.";
+    description = "Command abbreviations. This expands input words as you type in the [xonsh shell](https://xon.sh).";
     homepage = "https://github.com/xonsh/xontrib-abbrevs";
     license = licenses.mit;
-    maintainers = [ maintainers.greg ];
+    maintainers = [maintainers.greg];
   };
 }
