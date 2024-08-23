@@ -25077,6 +25077,8 @@ with pkgs;
 
   home-assistant-component-tests = recurseIntoAttrs home-assistant.tests.components;
 
+  homarr = callPackage ../servers/homarr { };
+
   honk = callPackage ../servers/honk { };
 
   hqplayerd = callPackage ../servers/hqplayerd { };
