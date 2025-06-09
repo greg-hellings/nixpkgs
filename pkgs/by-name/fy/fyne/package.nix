@@ -19,12 +19,12 @@ buildGoModule rec {
 
   src = fetchFromGitHub {
     owner = "fyne-io";
-    repo = "fyne";
-    tag = "v${version}";
-    hash = "sha256-ONtZd+WlgDUS4XwSvIDkCazPsmiTIXdaQua6fnq5NKQ=";
+    repo = "tools";
+    rev = "59fc876";
+    hash = "sha256-G9wkw4529YLtDorQ/kCGotK+dKZCVOtsNTaPUP3xJsA=";
   };
 
-  vendorHash = "sha256-3lXDkiQoq+rDUN8Am9Bd/DJ5CKQqfQucbHKQrkS4wIg=";
+  vendorHash = "sha256-7B0PCKMfLULmqzIlNFeXhOUThnWSe9+gRhpswbiwLP4=";
 
   nativeBuildInputs = [ pkg-config ];
 
